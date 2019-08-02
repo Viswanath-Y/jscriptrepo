@@ -1,0 +1,19 @@
+<html>
+<head>
+
+</head>
+   <body onload = checkscopeVar();>   
+          <script type = "text/javascript">
+          // Declare a global variable
+            var myVar = "globalvar";     
+            function checkscopeVar( ) {
+		// Declare a local variable
+               var myVar = "localvar";  
+		var boolea ="true";  
+               document.write(myVar);
+		document.write(boolea);
+            }
+         
+      </script> 
+   </body>
+</html>
