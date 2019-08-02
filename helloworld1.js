@@ -1,6 +1,6 @@
 <html>
   <head>
-    <src language="javascript" type="text/javascript">
+    <script language="javascript" type="text/javascript">
         document.write("Hello World");
     </script>
   </head>
